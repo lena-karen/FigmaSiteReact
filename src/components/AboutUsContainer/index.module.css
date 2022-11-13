@@ -1,0 +1,36 @@
+.about_us_container {
+    display: flex;
+    
+    padding: 140px 0;
+}
+
+.about_us_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    grid-auto-rows: 255px;
+    gap: 30px;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.container {
+    width: 50%;
+}
+.title {
+   /* font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;*/
+    width: 347px;
+    margin-bottom: 60px;
+}
+h2 span {
+    color: #005FA3;
+}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000;
+    width: 450px;
+}

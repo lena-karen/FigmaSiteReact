@@ -1,0 +1,30 @@
+.nav_block {
+    padding: 28px 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 260px;
+    height: 43px;
+    cursor: pointer;
+}
+.nav_menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 68px;
+}
+.nav_menu li {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #222222;
+}
+.nav_menu a {
+    cursor: pointer;
+}
+.nav_menu a:hover {
+    color: red;
+}

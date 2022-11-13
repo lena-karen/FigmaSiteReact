@@ -1,0 +1,35 @@
+.container {
+    padding: 30px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #EBEBEB;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    cursor: pointer;
+}
+.container:hover {
+    background-color: #005FA3;
+    color: #FFFFFF;
+}
+.container:hover a {
+    color: white;
+}
+.container p:first-child {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.container p:nth-child(2) {
+    line-height: 18px;
+}
+.container a {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+}

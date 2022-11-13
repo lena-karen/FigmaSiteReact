@@ -1,0 +1,39 @@
+.container {
+    background-image: url(./media/contacts-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 122px 0 140px 0;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts_container {
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.title {
+    color: #fff;
+    margin-bottom: 60px;
+}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    width: 450px;
+    margin-bottom: 80px;
+}
+
+.contacts_block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    color: white;
+
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+}
