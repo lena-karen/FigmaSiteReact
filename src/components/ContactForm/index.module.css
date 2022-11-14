@@ -45,3 +45,12 @@
     margin-top: 50px;
     align-self: end;
 }
+
+@media (max-width: 803px) {
+    .form {
+        padding-top: 80px;
+    }
+    .form input {
+        width: 295px;
+    }
+}

@@ -10,3 +10,13 @@
     line-height: 30px;  
     color: #FFFFFF;
 }
+
+@media (max-width: 803px) {
+    .service_item {
+        width: 100%;
+
+    }
+    .service_desc {
+        margin-left: 34px;
+    }
+}

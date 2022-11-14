@@ -36,8 +36,14 @@ h2 {
     margin-bottom: 102px;
 }
 
-@media screen and (max-width: 803px) {
+@media (max-width: 803px) {
     .wrapper {
         max-width: 618px;
+    }
+    .subheader {
+        display: none;
+    }
+    h2 {
+        margin-bottom: 63px;
     }
 }

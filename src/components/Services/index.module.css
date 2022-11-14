@@ -11,3 +11,11 @@
     padding: 140px 0;
 }
 
+@media (max-width: 803px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .service_block {
+        padding: 50px 0;
+    }
+}

@@ -33,3 +33,14 @@
     text-decoration-line: underline;
     color: #005FA3;
 }
+
+@media (max-width: 803px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 48px 0 40px;
+    }
+    .container p:nth-child(2) {
+        width: 150px;
+    }
+}
