@@ -28,3 +28,19 @@
 .nav_menu a:hover {
     color: red;
 }
+.menu_img {
+    display: none;
+}
+@media screen and (max-width: 803px) {
+    .nav_menu {
+        display: none;
+    }
+    .menu_img {
+        display: block;
+        cursor: pointer;
+    }
+    .menu-img:hover + ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
