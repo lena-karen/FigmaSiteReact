@@ -4,13 +4,14 @@ import Nav from '../Nav';
 import Services from '../Services';
 import Contacts from '../Contacts';
 import Footer from '../Footer';
-
+import {useState} from 'react'
 
 
 function App() {
+    const [menuVisible, menuShow] = useState('false');
     return (
         <div>
-            <Nav />
+            <Nav menuVisible={menuVisible} menuShow={menuShow}/>
             <Services />
             <AboutUsContainer />
             <Contacts />

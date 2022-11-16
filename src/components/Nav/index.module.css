@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .logo {
     width: 260px;
@@ -25,14 +26,39 @@
 .nav_menu a {
     cursor: pointer;
 }
+.nav_menu p {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
 .nav_menu a:hover {
     color: red;
 }
 .menu_icon {
     display: none;
 }
-@media screen and (max-width: 803px) {
+@media (max-width: 803px) {
+    .nav_block {
+        position: relative;
+    }
     .nav_menu {
+        grid-template-columns: 1fr;
+        position: absolute;
+        top: 100%;
+        right: -7%;
+        background-color: white;
+        border: 1px solid black;
+        padding: 20px 50px 20px 20px;
+        width: 250px;
+        transform: translateX(150%);
+    }
+    .nav_menu.active {
+        transform: translateX(0);
+    }
+    .nav_menu p {
         display: none;
     }
     .menu_icon {
